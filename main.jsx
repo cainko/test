@@ -97,10 +97,10 @@ const Day = (props) => {
 }
 
 
-
+const domContainer = document.querySelector('#weather-widget');
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  domContainer
 )
